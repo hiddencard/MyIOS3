@@ -46,7 +46,7 @@ struct ContentView: View {
         withAnimation {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
-            //my test
+            //my test 2
 
             do {
                 try viewContext.save()
